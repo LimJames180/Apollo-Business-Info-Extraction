@@ -12,7 +12,7 @@ apollo : Apollo URL starts with https://app.apollo.io/#/organizations/ then some
 industry: Industry sector the company belongs to  
 revenue: Estimated company revenue (e.g., "$1M–$10M")  
 product_category: The primary category of the company's product or service  
-type: "B2B" or "B2C", based on the company's business model  
+type: "B2B" and/or "B2C", based on the company's business model  (e.g ["B2B", "B2C"] or ["B2B"]
 year_founded: The year the company was founded  
 person_first : person in charge first name (to contact ideally owner, founder, ceo) if they are all low ranking PUT N/A
 person_last : person in charge last name (to contact ideally owner, founder, ceo) if they are all low ranking PUT N/A

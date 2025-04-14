@@ -10,7 +10,7 @@ class ReturnInfo(BaseModel):
     industry: str
     revenue: str
     product_category: str
-    type: str
+    type: list[str]
     year_founded: int
     person_first : str
     person_last : str

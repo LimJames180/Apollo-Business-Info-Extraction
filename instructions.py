@@ -2,8 +2,6 @@ instruction = """
 You are a data extraction agent. You are given a company profile page from Apollo.io. Your task is to extract specific company information and return it as a JSON based on a provided schema.
 
 The schema is as follows:
-fit : if the company fits the criteria
-why : short description why its a fit / not a fit
 name: The company's name  
 city: City of the company's headquarters  
 state: State or region of the headquarters  
@@ -20,6 +18,4 @@ person_first : person in charge first name (to contact ideally owner, founder, c
 person_last : person in charge last name (to contact ideally owner, founder, ceo) if they are all low ranking PUT N/A
 title : persons in charge title
 owner_li : owners/person in charge linkedin URL
-
-Search Criteria:
 """

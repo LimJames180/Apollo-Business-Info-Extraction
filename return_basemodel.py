@@ -1,6 +1,5 @@
-class Organization(BaseModel):
-    fit : bool
-    why : str
+from pydantic import BaseModel
+class ReturnInfo(BaseModel):
     name: str
     city: str
     state: str
